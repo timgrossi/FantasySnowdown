@@ -29,6 +29,9 @@ namespace FantasySnowdown.Models
         [Compare("Password")]
         [DataType(DataType.Password)]
         public string ConPass {get;set;}
+
+        public Team UserTeams {get;set;}
+        public Draft Drafts {get;set;}
         public User(){}
 
     }
